@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width>, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+   <header>
+    <div class="logo">DsBRIDGE</div>
+    <nav>
+        <ul>
+            <li><a href="#services">Services</a></a></li>
+            <li><a href="#about">About</a></li>
+            <Li><a href="#contact">Contact</a></Li>
+        </ul>
+    </nav>
+   </header>
+   <section class="hero">
+    <h1>We Bridge the Gap for International Students</h1>
+    <p>Helping you legalize documents, finding housing, secure insurance, and settle stress-free in lithuania</p>
+    <a href="#contact" class="btn">Get Started</a>
+   </section>
+   <section id="services" class="services">
+    <h2>Our Core Services</h2>
+    <div class="cards">
+        <div class="card">
+            <h3>PCC Legalization</h3>
+            <p>Fast and reliable legalizaion of police clearance certification at EU embassies</p>
+        </div>
+        <div class="card">
+            <h3>Housung Support</h3>
+            <p>Helping you secure trusted student-friendly housing options in kaunas and beyond.</p>
+        </div>
+        <div class="card">
+            <h3>Health Insurance</h3>
+            <p>Affordable and approved health insurance plans for students</p>
+        </div>
+        <div class="card">
+            <h3>Airport Pickup</h3>
+            <p>Safe and friendly pickups to your new home in lithuania</p>
+        </div>
+    </div>
+   </section>
+   <section id="about" class="about">
+    <h2>About DsBRIDGE</h2>
+    <P>DsBRIDGE is a student-first friendly agency in Lithuania dedicated to solving settlement challenges. We understand the struggles because we have lived them.
+         Our mission is to create smooth pathway for students settling in Lithuania. We are reliable, fast in delivery, and highly trustworth by partners of our services</P>
+   </section>
+   <section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <p>Have question or need support? Reach us anytime</p>
+    <p>
+        <a href="mailto:dsbridge.eu@gmail.com" class="email-link">dsbridge.eu@gmail.com</a>
+    </p>
+    <form  action="https://formspree.io/f/mrbrgvgw" method="POST" enctype="multipart/form-data"  id="contactForm">
+          
+        <input type="text" id="name" placeholder="Your-Name" required>
+        <input type="email" id="email" placeholder="Your Email" required>
+        <input type="text" placeholder=" Your University" required>
+        <textarea id="message" placeholder="Your Message" required></textarea>
+        <button type="submit" class="btn">Send Message</button>
+    </form>
+    <div id="formMessage"></div>
+   </section>
+   <footer>
+    <p>@<span id="year"></span>DsBRIDGE. All right reserved.</p>
+   </footer>
+   <script src="fxn.js"></script>
+</body>
+</html>
